@@ -1,0 +1,145 @@
+body{
+    background-color: #bbbbbb;
+}
+
+body:hover .E_box{
+    opacity: 1;
+    margin-top: 70px;
+}
+
+.E_box {
+    opacity: 0;
+    transition: 0.8s;
+    margin-top: 100px;
+    border: 1px solid #00000000;
+    width: 1500px;
+    height: 500px;
+    background-color: #1f1e1e;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.E_box__E_block-1 {
+    width: 100%;
+    height: 100%;
+    background: rgba(7, 255, 11, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.E_block-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px 50px;
+    background-color: rgba(220, 20, 60, 0);
+}
+
+.E_block-1__img{
+    width: 800px;
+    padding: 30 auto;
+}
+
+.E_block-2__p1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.E_block-2__h1 {
+    font-family: 'Cormorant Garamond', serif;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+}
+
+
+/* MAIN */
+
+.main {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+
+.main__box {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+
+.E_card {
+    width: 1500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__black {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 410px;
+    height: 480px;
+    background-color: #1f1e1e;
+    padding: 15px;
+    box-shadow:0 20px 10px #00000089;
+}
+
+.black__img {
+    width: 350px;
+}
+
+.black__h1 {
+    font-family: 'Cormorant Garamond', serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.black__p {
+    font-family: 'Cormorant Garamond', serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* video */
+
+.E_block__video {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 1500px;
+}
+
+.E_video {
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.E_h1 {
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 45px;
+}
+
+.E_text {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+    text-align: left;
+}
+
+.Video__text {
+    
+}
